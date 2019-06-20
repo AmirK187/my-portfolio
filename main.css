@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in Hex */
+span {
+  background: -webkit-gradient(linear, left top, left bottom, from(#F23005), to(#8C0E03)) !important;
+  background: linear-gradient(#F23005, #8C0E03) !important;
+  height: 16px !important;
+  width: 16px !important;
+  opacity: 0.8 !important;
+}
+
+.fp-tooltip {
+  color: #F23005 !important;
+  font-size: 14px !important;
+  opacity: 0.8 !important;
+}
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  color: whitesmoke;
+  text-align: center;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 25%;
+  opacity: 0.7;
+  -webkit-transition: ease-out 0.6s;
+  transition: ease-out 0.6s;
+}
+
+img:hover {
+  height: 180px;
+  width: 180px;
+  border-radius: 18%;
+  opacity: 1;
+  -webkit-box-shadow: 1px 1px 0px #666464, 2px 2px 0px #666464, 3px 3px 0px #666464, 4px 4px 0px #666464, 6px 6px 0px #666464;
+          box-shadow: 1px 1px 0px #666464, 2px 2px 0px #666464, 3px 3px 0px #666464, 4px 4px 0px #666464, 6px 6px 0px #666464;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+.fa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 25px;
+  color: #F23005;
+  text-decoration: none;
+}
+
+.s1 {
+  background: url("./img/img3.jpg");
+  background-size: cover;
+}
+
+.s1 h1 {
+  text-align: right;
+  margin-right: 6em;
+}
+
+.s2 h1 {
+  color: black;
+}
+
+.s2 p {
+  text-align: center;
+  font-size: 2em;
+  padding: 20px;
+}
+
+.s2 h4 {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+}
+
+.s2 h5 {
+  text-align: center;
+  padding: 35px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+}
+
+.project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.fa-code:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  font-size: 2.5em;
+  cursor: pointer;
+}
+
+.s3 {
+  background: url("./img/img1.jpg");
+  background-size: cover;
+}
+
+.s3 h1 {
+  text-align: left;
+  margin-left: 4em;
+  color: whitesmoke;
+}
+
+.s3 p {
+  color: #F24405 !important;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 2em;
+  opacity: 0.1;
+  -webkit-transition: ease-out 0.2s;
+  transition: ease-out 0.2s;
+}
+
+.s3 p:hover {
+  cursor: none;
+  opacity: 1;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  -webkit-transition: ease-in 0.4s;
+  transition: ease-in 0.4s;
+}
+
+.s4 h1 {
+  padding: 25px;
+  color: black !important;
+}
+
+.s4 .fa-wordpress {
+  color: #D92B04 !important;
+  margin: 0px;
+  padding: 20px;
+  font-size: 2em;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.s4 .fa:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  font-size: 2.5em;
+  cursor: pointer;
+}
+
+.s4 i.fa-github-square {
+  margin: 0px;
+  padding: 20px;
+  font-size: 2em;
+  color: #F23005 !important;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.s4 i.fa-linkedin-square {
+  margin: 0px;
+  padding: 20px;
+  font-size: 2em;
+  color: #F23005 !important;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.s4 .fa:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  font-size: 2.5em;
+  cursor: pointer;
+}
+
+.s4 .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  font-size: 2em;
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */
